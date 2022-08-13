@@ -6,11 +6,10 @@ import { HashLink } from 'react-router-hash-link';
 import '../App.css'
 
 const navigation = [
-  { name: '/home', href: '/home', current: true, scroll: '' },
-  { name: '/about', href: '#about', current: false, scroll: '#about' },
-  { name: '/experience', href: '#work', current: false, scroll: '#work'},
-  { name: '/projects', href: '#projects', current: false, scroll: '#projects' },
-  { name: '/contact', href: '#contact', current: false, scroll: '#contact'},
+  { name: '/about', href: '#about', scroll: '#about' },
+  { name: '/experience', href: '#experience', scroll: '#experience'},
+  { name: '/projects', href: '#projects', scroll: '#projects' },
+  { name: '/contact', href: '#contact', scroll: '#contact'},
 ]
 
 function classNames(...classes) {
@@ -21,7 +20,7 @@ function NavBar() {
     return (
         <>
         {/* Navbar */}
-        <Disclosure as="nav">
+        <Disclosure as="nav" className="pt-2">
         {({ open }) => (
             <>
             <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
@@ -29,11 +28,11 @@ function NavBar() {
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button for phone --- */}
                         <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                        {open ? (
-                            <XIcon className="block h-6 w-6" aria-hidden="true" />
-                        ) : (
-                            <MenuIcon className="block h-6 w-6" aria-hidden="true" />
-                        )}
+                            {open ? (
+                                <XIcon className="block h-6 w-6" aria-hidden="true" />
+                            ) : (
+                                <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                            )}
                         </Disclosure.Button>
                     </div>
                     {/* Laptop view for logo */}
@@ -64,10 +63,9 @@ function NavBar() {
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                                item.current ? 'bg-gray-900 text-[#64FFDA]' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                                'px-3 py-2 rounded-md text-sm font-medium text-white'
+                                                'text-emerald-300 hover:bg-gray-700 hover:text-white',
+                                                'px-3 py-2 rounded-md text-sm font-medium text-emerald-300'
                                             )}
-                                            aria-current={item.current ? 'page' : undefined}
                                         >
                                             {item.name}
                                         </a>
@@ -89,10 +87,9 @@ function NavBar() {
                             as="a"
                             href={item.href}
                             className={classNames(
-                                item.current ? 'bg-gray-900 text-[#64FFDA]' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                'block px-3 py-2 rounded-md text-base font-medium'
+                                'text-emerald-300 hover:bg-gray-700 hover:text-white',
+                                'block px-3 py-2 rounded-md text-base font-medium text-emerald-300'
                             )}
-                            aria-current={item.current ? 'page' : undefined}
                         >
                         {item.name}
                         </Disclosure.Button>
