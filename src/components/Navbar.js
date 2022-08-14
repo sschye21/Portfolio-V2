@@ -4,13 +4,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import navLogo from '../assets/SC.png'
 import { HashLink } from 'react-router-hash-link';
 import '../App.css'
-
-const navigation = [
-  { name: '/about', href: '#about', scroll: '#about' },
-  { name: '/experience', href: '#experience', scroll: '#experience'},
-  { name: '/projects', href: '#projects', scroll: '#projects' },
-  { name: '/contact', href: '#contact', scroll: '#contact'},
-]
+import { navigation } from '../config'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -80,21 +74,21 @@ function NavBar() {
             {/** Mobile view panel */}
             <Disclosure.Panel className="sm:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1">
-                {navigation.map((item) => (
-                    <HashLink smooth to={item.scroll}>
-                        <Disclosure.Button
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className={classNames(
-                                'text-emerald-300 hover:bg-gray-700 hover:text-white',
-                                'block px-3 py-2 rounded-md text-base font-medium text-emerald-300'
-                            )}
-                        >
-                        {item.name}
-                        </Disclosure.Button>
-                    </HashLink>
-                ))}
+                    {navigation.map((item) => (
+                        <HashLink smooth to={item.scroll}>
+                            <Disclosure.Button
+                                key={item.name}
+                                as="a"
+                                href={item.href}
+                                className={classNames(
+                                    'text-emerald-300 hover:bg-gray-700 hover:text-white',
+                                    'block px-3 py-2 rounded-md text-base font-medium text-emerald-300'
+                                )}
+                            >
+                            {item.name}
+                            </Disclosure.Button>
+                        </HashLink>
+                    ))}
                 </div>
             </Disclosure.Panel>
             </>

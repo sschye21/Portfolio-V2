@@ -3,7 +3,6 @@ import Typist from 'react-typist'
 import "react-typist/dist/Typist.css";
 import { AiOutlineMail } from 'react-icons/ai'
 import { IconContext } from "react-icons";
-import FadeIn from '../components/FadeIn'
 import '../App.css';
 
 export default function Header () {
@@ -17,18 +16,16 @@ export default function Header () {
                     </span>
                 </span>
             </Typist>
-            <FadeIn>
-                <div className="max-w-xl text-justify text-gray-400 lg:text-xl text-lg">
-                    I'm an ambitious tech enthusiast and a keen software developer who loves building. 
-                    I'm currently working as a Global Web Developer Intern at Adobe Australia for the APAC region. 
-                </div>
-                <button src="mailto:sschye@gmail.com" className='mt-8 flex flex-row gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
-                    <IconContext.Provider value={{ className: "text-emerald-300"}}>
-                        <AiOutlineMail />
-                    </IconContext.Provider>
-                    say hi!
-                </button>
-            </FadeIn>
+            <div className="max-w-xl text-justify text-gray-400 lg:text-xl text-lg">
+                I'm an ambitious tech enthusiast and a keen software developer who loves building. 
+                I'm currently working as a Global Web Developer Intern at Adobe Australia for the APAC region. 
+            </div>
+            <a href="mailto:sschye@gmail.com" className='mt-8 w-28 flex flex-row gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
+                <IconContext.Provider value={{ className: "text-emerald-300"}}>
+                    <AiOutlineMail />
+                </IconContext.Provider>
+                say hi!
+            </a>
         </div>
     )
 }
