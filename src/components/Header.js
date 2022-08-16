@@ -20,7 +20,7 @@ export default function Header () {
                 I'm an ambitious tech enthusiast and a keen software developer who loves building. 
                 I'm currently working as a Global Web Developer Intern at Adobe Australia for the APAC region. 
             </div>
-            <a href="mailto:sschye@gmail.com" className='mt-8 w-28 flex flex-row gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
+            <a href="mailto:sschye@gmail.com" className='mt-8 w-28 flex flex-row justify-center gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
                 <IconContext.Provider value={{ className: "text-emerald-300"}}>
                     <AiOutlineMail />
                 </IconContext.Provider>

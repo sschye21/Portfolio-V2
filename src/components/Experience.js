@@ -4,14 +4,14 @@ import { work } from '../config'
 
 export default function Experience () {
     return (
-        <div id="experience" className='text-white'>
+        <div id="experience" className='text-white mb-[450px] lg:mb-0 md:mb-56'>
             <div className='text-white mt-12 lg:mt-24 flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>/ experience</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 lg:w-60 md:visible md:border-t md:border-gray-500 md:w-60' />
             </div>
-            <div className='pt-8'>
-                <Tabs className="flex flex-col lg:flex lg:flex-row list-none cursor-pointer">
-                    <TabList className="flex flex-col m-0 p-0 w-44">
+            <div className='pt-8 h-80'>
+                <Tabs className="flex flex-col lg:flex lg:flex-row list-none">
+                    <TabList className="flex flex-col m-0 md:pb-8 p-0 w-44 cursor-pointer">
                         {work.map((item, key) => {
                             return (
                                 <Tab key={key}>
@@ -24,12 +24,12 @@ export default function Experience () {
                         return (
                             <TabPanel key={key} className="pt-4 lg:pt-0 md:pt-0">
                                 <div className='flex flex-col align-start pl-2 lg:pl-12 gap-y-2'>
-                                    <p className='text-lg'>{item.role} @ <span className='text-emerald-500'>{item.company}</span></p>
-                                    <p className='text-xs text-gray-500'>{item.length}</p>
-                                    <ul className='list-outside text-justify marker:text-emerald-500 max-w-3xl'>
+                                    <p className='text-xl'>{item.role} @ <span className='text-emerald-500'>{item.company}</span></p>
+                                    <p className='text-m text-gray-500'>{item.length}</p>
+                                    <ul className='list-outside text-justify marker:text-emerald-500 max-w-3xl text-sm'>
                                         {item.desc.map((desc, i) => {
                                             return (
-                                                <li className='pb-3 list-disc' key={i}>
+                                                <li className='list-disc mb-3' key={i}>
                                                     {desc}
                                                 </li>
                                             )
