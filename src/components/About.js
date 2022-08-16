@@ -9,7 +9,7 @@ export default function About () {
     return (
         <div id="about" className='body-font text-white'>
             <div className='text-white mt-16 lg:mt-80 flex flex-row items-center gap-4'>
-                <p className='text-3xl lg:text-4xl'>/ about</p>
+                <p className='text-3xl lg:text-4xl'>{"<about>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 md:w-72 md:visible md:border-t md:border-gray-500 md:w-72' />
             </div>
             <div className='flex flex-col-reverse md:flex-row lg:flex-row lg:justify-start gap-10'>

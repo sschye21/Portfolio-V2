@@ -1,9 +1,9 @@
 module.exports = {
     navigation: [
-        { name: '/about', href: '#about', scroll: '#about' },
-        { name: '/experience', href: '#experience', scroll: '#experience'},
-        { name: '/projects', href: '#projects', scroll: '#projects' },
-        { name: '/contact', href: '#contact', scroll: '#contact'},
+        { name: '<about>', href: '#about', scroll: '#about' },
+        { name: '<experience>', href: '#experience', scroll: '#experience'},
+        { name: '<projects>', href: '#projects', scroll: '#projects' },
+        { name: '<contact>', href: '#contact', scroll: '#contact'},
     ],
 
     work: [
