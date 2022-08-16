@@ -4,7 +4,7 @@ import { work } from '../config'
 
 export default function Experience () {
     return (
-        <div id="experience" className='text-white mb-[450px] lg:mb-0 md:mb-56'>
+        <div id="experience" className='text-white mb-[380px] lg:mb-0 md:mb-56'>
             <div className='text-white mt-12 lg:mt-24 flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<experience>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 lg:w-60 md:visible md:border-t md:border-gray-500 md:w-60' />
