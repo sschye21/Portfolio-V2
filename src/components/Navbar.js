@@ -52,9 +52,8 @@ function NavBar() {
                         <div className="hidden sm:flex sm:ml-60 items-center">
                             <div className="flex space-x-5">
                                 {navigation.map((item) => (
-                                    <HashLink smooth to={item.scroll}>
+                                    <HashLink smooth to={item.scroll} key={item.name}>
                                         <a
-                                            key={item.name}
                                             href={item.href}
                                             className={classNames(
                                                 'text-emerald-300 hover:bg-gray-700 hover:text-white',
@@ -75,9 +74,8 @@ function NavBar() {
             <Disclosure.Panel className="sm:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
-                        <HashLink smooth to={item.scroll}>
+                        <HashLink smooth to={item.scroll} key={item.name}>
                             <Disclosure.Button
-                                key={item.name}
                                 as="a"
                                 href={item.href}
                                 className={classNames(
