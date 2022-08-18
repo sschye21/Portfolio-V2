@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b40afe79.css",
-    "main.js": "/static/js/main.54489d7b.js",
+    "main.css": "/static/css/main.c104bd6b.css",
+    "main.js": "/static/js/main.1211f0b4.js",
     "static/js/787.97df3810.chunk.js": "/static/js/787.97df3810.chunk.js",
     "static/media/steven-chye.jpeg": "/static/media/steven-chye.be2403114dcc5d998144.jpeg",
     "static/media/movie-finder.png": "/static/media/movie-finder.e6ae9876954601e95d79.png",
@@ -10,12 +10,12 @@
     "static/media/portfolio-website-v2.png": "/static/media/portfolio-website-v2.dddbc4e2f47b379c2116.png",
     "static/media/SC.png": "/static/media/SC.6a8b880e04313b6600d5.png",
     "index.html": "/index.html",
-    "main.b40afe79.css.map": "/static/css/main.b40afe79.css.map",
-    "main.54489d7b.js.map": "/static/js/main.54489d7b.js.map",
+    "main.c104bd6b.css.map": "/static/css/main.c104bd6b.css.map",
+    "main.1211f0b4.js.map": "/static/js/main.1211f0b4.js.map",
     "787.97df3810.chunk.js.map": "/static/js/787.97df3810.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40afe79.css",
-    "static/js/main.54489d7b.js"
+    "static/css/main.c104bd6b.css",
+    "static/js/main.1211f0b4.js"
   ]
 }
