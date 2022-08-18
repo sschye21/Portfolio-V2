@@ -2,10 +2,23 @@ import React from 'react'
 import navLogo from '../assets/SC.png'
 import { AiOutlineMail } from 'react-icons/ai'
 import { IconContext } from "react-icons";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Contact () {
+
+    AOS.init({
+        offset: 200,
+        duration: 500,
+        easing: 'ease-in-out',
+        delay: 200,
+        mirror: true,
+        once: "true", 
+        disable: window.innerWidth < 768
+    });
+
     return (
-        <div id="contact" className='mt-24 body-font text-white'>
+        <div id="contact" className='mt-24 body-font text-white' data-aos="fade-up">
             <div className='text-white  flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<contact>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 lg:w-60 md:visible md:border-t md:border-gray-500 md:w-60' />

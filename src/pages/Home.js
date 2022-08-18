@@ -12,6 +12,7 @@ import '../App.css'
 export default function Home () {
     return (
         <>
+            <Socials />
             <NavBar />
             <div className='px-20 lg:pl-72 lg:pr-72 body-font'>
                 <Header />
@@ -21,7 +22,7 @@ export default function Home () {
                 <Contact />
                 <ScrollDown />
             </div>
-            <Socials />
+            
         </>
         
     )

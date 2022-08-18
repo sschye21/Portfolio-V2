@@ -22,8 +22,8 @@ module.exports = {
             "role": "Audit, Assurance & Risk Consulting Intern",
             "length": "DEC 2021 - FEB 2022",
             "desc": [
-                "Delivered assurance services for all confidential half-year financial and non-financial statements (inventory, tax, cash and credit) for an ASX-listed company",
-                "Consulted with clients to obtain supporting documentation to understand the nature of the industry, situation, and practice, including completing various Excel worksheets of financial reports",
+                "Delivered assurance services for all confidential half-year financial and non-financial statements for an ASX-listed company",
+                "Consulted with clients to obtain supporting documentation to understand the nature of the industry and practice, completing various Excel worksheets of financial reports",
                 "Utilised Microsoft Excel and various internal systems to compile and analyse large sets of data"
             ]
         },

@@ -4,10 +4,23 @@ import steve from '../assets/steven-chye.jpeg'
 import { BiRightArrow } from 'react-icons/bi'
 import { IconContext } from "react-icons";
 import { tech, tech_two } from '../config'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function About () {
+
+    AOS.init({
+        offset: 200,
+        duration: 500,
+        easing: 'ease-in-out',
+        delay: 200,
+        mirror: true,
+        once: "true", 
+        disable: window.innerWidth < 768
+    });
+
     return (
-        <div id="about" className='body-font text-white'>
+        <div id="about" className='body-font text-white' data-aos="fade-up">
             <div className='text-white mt-16 lg:mt-80 flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<about>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 md:w-72 md:visible md:border-t md:border-gray-500 md:w-72' />

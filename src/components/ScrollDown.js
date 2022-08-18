@@ -6,14 +6,12 @@ import { IconContext } from "react-icons";
 export default function ScrollDown () {
 
     const [showButton, setShowButton] = React.useState(false);
-
+    console.log(window.pageYOffset)
     React.useEffect(() => {
+        // for reloading of page
+        window.pageYOffset === 0 ? setShowButton(true) : setShowButton(false)
         window.addEventListener("scroll", () => {
-            if (window.pageYOffset === 0) {
-                setShowButton(true);
-            } else {
-                setShowButton(false);
-            }
+            window.pageYOffset === 0 ? setShowButton(true) : setShowButton(false)
         });
     }, []);
 
