@@ -18,14 +18,16 @@ export default function ScrollDown () {
     return (
         <>
             {showButton && (
-                <HashLink smooth to="#about">
-                    <IconContext.Provider value={{ className: "text-emerald-300"}}>
-                        <BsFillArrowDownCircleFill 
-                            className="lg:fixed lg:left-1/2 lg:bottom-5 lg:animate-bounce lg:visible invisible" 
-                            size="2.5em" 
-                        />
-                    </IconContext.Provider>
-                </HashLink>
+                <div className='fadeHeader'>
+                    <HashLink smooth to="#about">
+                        <IconContext.Provider value={{ className: "text-emerald-300"}}>
+                            <BsFillArrowDownCircleFill
+                                className="lg:fixed lg:left-1/2 lg:bottom-5 lg:animate-bounce lg:visible invisible"
+                                size="2.5em"
+                            />
+                        </IconContext.Provider>
+                    </HashLink>
+                </div>
             )}
         </>
         

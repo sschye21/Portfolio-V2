@@ -28,7 +28,7 @@ export default function Socials () {
         <div 
             className='lg:flex lg:flex-col gap-6 z-10 lg:right-0 lg:bottom-0 lg:pr-10 lg:pb-10 
                 md:flex md:flex-col md:gap-6 lg:fixed md:fixed z-10 md:right-0 md:bottom-0 md:pr-10 md:pb-10
-                flex flex-row justify-center pb-10'
+                flex flex-row justify-center pb-10 fadeHeader'
         >
             <IconContext.Provider value={{ className: "text-white"}}>
                 {socials.map((item, key) => {

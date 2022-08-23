@@ -16,16 +16,18 @@ export default function Header () {
                     </span>
                 </span>
             </Typist>
-            <div className="max-w-xl text-justify text-gray-400 lg:text-xl text-lg">
-                I'm an ambitious tech enthusiast and a keen software developer who loves building. 
-                I'm currently working as a Global Web Developer Intern at Adobe Australia for the APAC region. 
+            <div className='fadeHeader'>
+                <div className="max-w-xl text-justify text-gray-400 lg:text-xl text-lg">
+                    I'm an ambitious tech enthusiast and a keen software developer who loves building.
+                    I'm currently working as a Global Web Developer Intern at Adobe Australia for the APAC region.
+                </div>
+                <a href="mailto:sschye@gmail.com" className='mt-8 w-28 flex flex-row justify-center gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
+                    <IconContext.Provider value={{ className: "text-emerald-300"}}>
+                        <AiOutlineMail />
+                    </IconContext.Provider>
+                    say hi!
+                </a>
             </div>
-            <a href="mailto:sschye@gmail.com" className='mt-8 w-28 flex flex-row justify-center gap-2 items-center border p-3 rounded-md border-emerald-300 text-emerald-300'>
-                <IconContext.Provider value={{ className: "text-emerald-300"}}>
-                    <AiOutlineMail />
-                </IconContext.Provider>
-                say hi!
-            </a>
         </div>
     )
 }
