@@ -32,8 +32,8 @@ export default function Projects () {
     ]
 
     AOS.init({
-        offset: 100,
-        duration: 300,
+        offset: 200,
+        duration: 350,
         easing: 'ease-in-out',
         delay: 200,
         mirror: true,
