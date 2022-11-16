@@ -8,9 +8,16 @@ module.exports = {
 
     work: [
         {
+            "company": "MuleSoft",
+            "role": "Professional Services Intern",
+            "length": "NOV 2022 - PRESENT",
+            "desc": [
+            ]
+        },
+        {
             "company": "Adobe",
             "role": "Global Web Developer Intern",
-            "length": "APR 2022 - PRESENT",
+            "length": "APR 2022 - OCT 2022",
             "desc": [
                 "Developed tailored webpages and templates using AEM for the Adobe.com APAC region websites",
                 "Used AEM which utilises Java developed components and frontend technologies to flesh out these components to author and build the webpages", 

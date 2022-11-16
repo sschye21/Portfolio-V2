@@ -33,10 +33,10 @@ export default function About () {
                         and
                         <span className="text-emerald-300"> Finance </span> 
                         student at UNSW. I am currently interning at 
-                        <span className="text-emerald-300"> Adobe Australia </span>
+                        <span className="text-emerald-300"> MuleSoft </span>
                         as a 
-                        <span className="text-emerald-300"> Global Web Developer </span>
-                        for the <b>APAC Region</b>. I'm curious, confident, and perpetually 
+                        <span className="text-emerald-300"> Professional Services Consultant </span>.
+                        I'm curious, confident, and perpetually 
                         work on improving and upskilling myself one step at a time.
                     </p>
                     <p>Here are a few technologies I've been working with recently:</p>
