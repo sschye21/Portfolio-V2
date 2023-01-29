@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 export default function ScrollDown () {
 
     const [showButton, setShowButton] = React.useState(false);
-    console.log(window.pageYOffset)
+    
     React.useEffect(() => {
         // for reloading of page
         window.pageYOffset === 0 ? setShowButton(true) : setShowButton(false)
