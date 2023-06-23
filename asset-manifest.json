@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3d1baa11.css",
-    "main.js": "/static/js/main.0c99abb5.js",
-    "static/js/787.97df3810.chunk.js": "/static/js/787.97df3810.chunk.js",
+    "main.js": "/static/js/main.094ab477.js",
+    "static/js/787.d9a20797.chunk.js": "/static/js/787.d9a20797.chunk.js",
     "static/media/steven-chye-4.PNG": "/static/media/steven-chye-4.7c8dacba8e163353c67f.PNG",
     "static/media/steven-chye.jpeg": "/static/media/steven-chye.be2403114dcc5d998144.jpeg",
     "static/media/movie-finder.png": "/static/media/movie-finder.e6ae9876954601e95d79.png",
@@ -15,11 +15,11 @@
     "static/media/SC.png": "/static/media/SC.6a8b880e04313b6600d5.png",
     "index.html": "/index.html",
     "main.3d1baa11.css.map": "/static/css/main.3d1baa11.css.map",
-    "main.0c99abb5.js.map": "/static/js/main.0c99abb5.js.map",
-    "787.97df3810.chunk.js.map": "/static/js/787.97df3810.chunk.js.map"
+    "main.094ab477.js.map": "/static/js/main.094ab477.js.map",
+    "787.d9a20797.chunk.js.map": "/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1baa11.css",
-    "static/js/main.0c99abb5.js"
+    "static/js/main.094ab477.js"
   ]
 }
