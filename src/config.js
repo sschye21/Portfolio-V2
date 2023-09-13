@@ -42,7 +42,7 @@ module.exports = {
     
     tech: [
         "React.js",
-        "Python",
+        "Angular",
         "JavaScript & TypeScript",
     ],
 

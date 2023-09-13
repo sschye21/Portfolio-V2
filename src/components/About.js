@@ -27,9 +27,14 @@ export default function About () {
                         <span className="text-emerald-300"> Computer Science </span>
                         and
                         <span className="text-emerald-300"> Finance </span> 
-                        at UNSW! I have a strong passion for fashion and coding and have fell in love with frontend development!
-                    </p>
-                    <p>I'm currently upskilling myself in a number of areas, exploring frontend frameworks and libraries!</p>
+                        at UNSW! I have a strong passion for 
+                        <span className="text-emerald-300"> fashion </span>  
+                        and 
+                        <span className="text-emerald-300"> coding </span>  
+                        and have fell in love with
+                        <span className="text-emerald-300"> frontend development! </span>
+                    
+                    I'm currently upskilling myself in a number of areas, exploring frontend frameworks and libraries!</p>
                     <p>Here are a few technologies I've been working with recently:</p>
                     <div className='flex flex-row justify-start gap-12'>
                         <ul>
