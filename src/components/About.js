@@ -8,26 +8,14 @@ import steve5 from '../assets/steven-chye-5.JPG'
 import { BiRightArrow } from 'react-icons/bi'
 import { IconContext } from "react-icons";
 import { tech, tech_two } from '../config'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 export default function About () {
-
-    AOS.init({
-        offset: 200,
-        duration: 350,
-        easing: 'ease-in-out',
-        delay: 200,
-        mirror: true,
-        once: "true", 
-        disable: window.innerWidth < 768
-    });
 
     const images = [ steve, steve2, steve3, steve4, steve5 ]
     const randomValue = images[Math.floor(Math.random() * images.length)]
 
     return (
-        <div id="about" className='body-font text-white' data-aos="fade-up">
+        <div id="about" className='body-font text-white'>
             <div className='text-white mt-16 lg:mt-80 flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<about>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 md:w-72 md:visible md:border-t md:border-gray-500 md:w-72' />
@@ -35,17 +23,13 @@ export default function About () {
             <div className='flex flex-col-reverse md:flex-row lg:flex-row lg:justify-start gap-10'>
                 <div className='pt-4 lg:pt-12 md:pt-12 flex flex-col gap-10'>
                     <p className='max-w-xl text-justify leading-loose'>
-                        I am currently a final year 
+                        I've just graduated from a Bachelor of
                         <span className="text-emerald-300"> Computer Science </span>
                         and
                         <span className="text-emerald-300"> Finance </span> 
-                        student at UNSW. I am currently interning at 
-                        <span className="text-emerald-300"> MuleSoft </span>
-                        as a 
-                        <span className="text-emerald-300"> Professional Services Intern </span>.
-                        I'm curious, confident, and perpetually 
-                        work on improving and upskilling myself one step at a time.
+                        at UNSW! I have a strong passion for fashion and coding and have fell in love with frontend development!
                     </p>
+                    <p>I'm currently upskilling myself in a number of areas, exploring frontend frameworks and libraries!</p>
                     <p>Here are a few technologies I've been working with recently:</p>
                     <div className='flex flex-row justify-start gap-12'>
                         <ul>

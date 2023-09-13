@@ -10,7 +10,7 @@ module.exports = {
         {
             "company": "MuleSoft",
             "role": "Professional Services Intern",
-            "length": "NOV 2022 - PRESENT",
+            "length": "NOV 2022 - FEB 2023",
             "desc": [
                 "Developed custom API solutions for MuleSoft in Python to assist Cloudhub 1.0 users in their migration to CloudHub 2.0 through a scanning and reporting tool",
                 "Collaborated with cross-functional teams to understand requirements and ensure the successful delivery of integration projects",
@@ -43,12 +43,12 @@ module.exports = {
     tech: [
         "React.js",
         "Python",
-        "JavaScript ES6+",
+        "JavaScript & TypeScript",
     ],
 
     tech_two: [
         "SQL",
-        "HTML & CSS",
+        "HTML5 & CSS3",
         "Node.js"
     ],
 };

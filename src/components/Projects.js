@@ -3,8 +3,6 @@ import website from '../assets/portfolio-website-v2.png'
 import unit from '../assets/unit.png'
 import cselectives from '../assets/cselectives.png'
 import movieFinder from '../assets/movie-finder.png'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 export default function Projects () {
 
@@ -31,18 +29,8 @@ export default function Projects () {
         }
     ]
 
-    AOS.init({
-        offset: 200,
-        duration: 350,
-        easing: 'ease-in-out',
-        delay: 200,
-        mirror: true,
-        once: "true", 
-        disable: window.innerWidth < 768
-    });
-
     return (
-        <div id="projects" className='text-white' data-aos="fade-up">
+        <div id="projects" className='text-white'>
             <div className='flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<projects>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 lg:w-60 md:visible md:border-t md:border-gray-500 md:w-60' />

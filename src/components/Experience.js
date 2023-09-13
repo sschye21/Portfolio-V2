@@ -1,23 +1,11 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { work } from '../config'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 export default function Experience () {
 
-    AOS.init({
-        offset: 200,
-        duration: 350,
-        easing: 'ease-in-out',
-        delay: 200,
-        mirror: true,
-        once: "true", 
-        disable: window.innerWidth < 768
-    });
-
     return (
-        <div id="experience" className='text-white mb-[430px] lg:mb-0 md:mb-56' data-aos="fade-up">
+        <div id="experience" className='text-white mb-[430px] lg:mb-0 md:mb-56'>
             <div className='text-white mt-12 lg:mt-24 flex flex-row items-center gap-4'>
                 <p className='text-3xl lg:text-4xl'>{"<experience>"}</p>
                 <div className='invisible lg:visible lg:border-t lg:border-gray-500 lg:w-60 md:visible md:border-t md:border-gray-500 md:w-60' />
