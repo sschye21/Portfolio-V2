@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d1baa11.css",
-    "main.js": "/static/js/main.c037122e.js",
+    "main.css": "/static/css/main.fa14bb13.css",
+    "main.js": "/static/js/main.498afb9c.js",
     "static/js/787.5e736623.chunk.js": "/static/js/787.5e736623.chunk.js",
     "static/media/steven-chye-4.PNG": "/static/media/steven-chye-4.7c8dacba8e163353c67f.PNG",
     "static/media/steven-chye.jpeg": "/static/media/steven-chye.be2403114dcc5d998144.jpeg",
@@ -14,12 +14,12 @@
     "static/media/portfolio-website-v2.png": "/static/media/portfolio-website-v2.dddbc4e2f47b379c2116.png",
     "static/media/SC.png": "/static/media/SC.6a8b880e04313b6600d5.png",
     "index.html": "/index.html",
-    "main.3d1baa11.css.map": "/static/css/main.3d1baa11.css.map",
-    "main.c037122e.js.map": "/static/js/main.c037122e.js.map",
+    "main.fa14bb13.css.map": "/static/css/main.fa14bb13.css.map",
+    "main.498afb9c.js.map": "/static/js/main.498afb9c.js.map",
     "787.5e736623.chunk.js.map": "/static/js/787.5e736623.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1baa11.css",
-    "static/js/main.c037122e.js"
+    "static/css/main.fa14bb13.css",
+    "static/js/main.498afb9c.js"
   ]
 }
